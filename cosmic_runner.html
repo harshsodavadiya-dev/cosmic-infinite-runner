@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+# Makes HTML, make title, and font
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cosmic Infinite Runner</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+#color, yay
+<style>
+    :root {
+        --bg: #04010e;
+        --purple: #7f77dd;
+        --cyan: #4af0ff;
+        --magenta: #c86fff;
+        --green: #4ffca0;
+        --amber: #ffb84a;
+        --red: #ff4466;
+        --panel: rgba(15,8,40,0.92);
+    }
+* { box-sizing: border-box; margin: 0; padding: 0;}
+body {
+    background: var(--bg);
+    font-family: 'Share Tech Mono', monospace;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+canvas {display: block; width: 100%; border-radius: 0 0 12px 12px;}
